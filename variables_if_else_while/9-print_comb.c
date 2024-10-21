@@ -3,39 +3,43 @@
 /**
  * main - no tengo idea prueba
  * Return: 0
- */
+*/
 
 int main(void)
 {
-	int i;
-	int length = 2;
-	int max = 9;
-	int counters[length];
+    int i;
+    int length = 2;
+    int max = 9;
+    int counters[length];
 
-		for (i = 0; i < length; i++)
-		{
-			counters[i] = 0;
-		}
-		for (;;)
-		{
-		for (i = length - 1; i >= 0; i--)
-			printf("%d", counters[i]);
-			printf("\n");
+    // Inicializar contadores a 0
+    for (i = 0; i < length; i++) // Cambiando '0' por 0
+    {
+        counters[i] = 0;
+    }
 
-		for (i = 0; i < length; i++)
-		{
-		counters[i]++;
+    for (;;)
+    {
+        // Imprimir los contadores
+        for (i = length - 1; i >= 0; i--) // Cambiando '1' y '0' por 1 y 0
+            printf("%d", counters[i]);
+        printf("\n");
 
-		if (counters[i] < max)
+        // Incrementar los contadores
+        for (i = 0; i < length; i++) // Cambiando '0' por 0
+        {
+            counters[i]++;
 
-		break;
+            if (counters[i] < max)
+                break; // Si el contador es menor que max, salir del bucle
+            else
+                counters[i] = 0; // Reiniciar el contador a 0 si alcanza max
+        }
 
-		else
-		    counters[i] = 0;
-		}
-		if (i >= length)
-			break;
-		}
+        if (i >= length)
+            break; // Si todos los contadores han alcanzado max, salir
+    }
 
-		return (0);
+    return 0;
 }
+
