@@ -10,14 +10,15 @@ int main(void)
 	char mayus;
 
 	for (letra = 'a'; letra <= 'z'; letra++)
-	for (mayus = 'A'; letra <= 'Z'; mayus++)
 	{
-		putchar(letra);
-		putchar(mayus);
+		for (mayus = 'A'; letra <= 'Z'; mayus++)
+		{
+			putchar(letra);
+			putchar(mayus);
+		}
 	}
 	{
-		putchar('\n');
+	putchar('\n');
 	}
-
 	return (0);
 }
