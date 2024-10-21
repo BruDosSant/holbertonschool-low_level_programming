@@ -6,8 +6,6 @@
  */
 int main(void)
 {
-	char letra;
-
 	for (char letra = 'a'; letra <= 'z'; letra++)
 	{
 		putchar(letra);
