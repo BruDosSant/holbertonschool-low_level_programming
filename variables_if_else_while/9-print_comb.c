@@ -7,12 +7,11 @@
 
 int main(void)
 {
-    int length = 2; // Longitud de los dígitos
-    int max = 10;   // Máximo valor para cada dígito (0-9)
+    int i, j;
 
     // Generar combinaciones de 00 a 99
-    for (int i = 0; i < max; i++) {
-        for (int j = 0; j < max; j++) {
+    for (i = 0; i < 10; i++) {  // Primer dígito
+        for (j = 0; j < 10; j++) {  // Segundo dígito
             printf("%d%d\n", i, j);
         }
     }
