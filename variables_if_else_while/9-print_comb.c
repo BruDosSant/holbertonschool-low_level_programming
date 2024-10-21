@@ -5,16 +5,22 @@
  * Return: 0
 */
 
+#include <stdio.h>
+
 int main(void)
 {
-    int i, j;
+    int x;
 
-    // Generar combinaciones de 00 a 99
-    for (i = 0; i < 10; i++) {  // Primer dígito
-        for (j = 0; j < 10; j++) {  // Segundo dígito
-            printf("%d%d\n", i, j);
+    for (x = 0; x < 10; x++)
+    {
+        putchar(x + '0');
+        if (x < 9)
+        {
+            putchar(',');
+            putchar(' ');
         }
     }
-
-    return 0;
+    putchar('\n');
+    return (0);
 }
+
