@@ -11,7 +11,7 @@ int main(void)
 
 	for (letra = 'a'; letra <= 'z'; letra++)
 	{
-		for (mayus = 'A'; letra <= 'Z'; mayus++)
+		for (mayus = 'A'; mayus <= 'Z'; mayus++)
 		{
 			putchar(letra);
 			putchar(mayus);
