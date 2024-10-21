@@ -11,11 +11,11 @@ int main(void)
 
 	for (letra = 'a'; letra <= 'z'; letra++)
 	{
-		for (mayus = 'A'; mayus <= 'Z'; mayus++)
-		{
-			putchar(letra);
-			putchar(mayus);
-		}
+		putchar(letra);
+	}
+	for (mayus = 'A'; mayus <= 'Z'; mayus++)
+       	{
+		putchar(mayus);
 	}
 	{
 	putchar('\n');
