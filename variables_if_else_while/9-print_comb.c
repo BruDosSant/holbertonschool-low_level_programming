@@ -7,39 +7,15 @@
 
 int main(void)
 {
-    int i;
-    int length = 2;
-    int max = 9;
-    int counters[length];
+    int length = 2; // Longitud de los dígitos
+    int max = 10;   // Máximo valor para cada dígito (0-9)
 
-    // Inicializar contadores a 0
-    for (i = 0; i < length; i++) // Cambiando '0' por 0
-    {
-        counters[i] = 0;
-    }
-
-    for (;;)
-    {
-        // Imprimir los contadores
-        for (i = length - 1; i >= 0; i--) // Cambiando '1' y '0' por 1 y 0
-            printf("%d", counters[i]);
-        printf("\n");
-
-        // Incrementar los contadores
-        for (i = 0; i < length; i++) // Cambiando '0' por 0
-        {
-            counters[i]++;
-
-            if (counters[i] < max)
-                break; // Si el contador es menor que max, salir del bucle
-            else
-                counters[i] = 0; // Reiniciar el contador a 0 si alcanza max
+    // Generar combinaciones de 00 a 99
+    for (int i = 0; i < max; i++) {
+        for (int j = 0; j < max; j++) {
+            printf("%d%d\n", i, j);
         }
-
-        if (i >= length)
-            break; // Si todos los contadores han alcanzado max, salir
     }
 
     return 0;
 }
-
