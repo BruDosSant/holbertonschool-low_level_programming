@@ -14,7 +14,7 @@ int main(void)
 		putchar(letra);
 	}
 	for (mayus = 'A'; mayus <= 'Z'; mayus++)
-       	{
+	{
 		putchar(mayus);
 	}
 	{
