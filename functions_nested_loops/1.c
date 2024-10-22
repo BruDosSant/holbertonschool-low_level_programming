@@ -11,7 +11,7 @@ void print_alphabet(void)
     {
         _putchar(letra);
     }
-    _putchar(10);
+    _putchar('\n');  // Imprime una nueva línea
 }
 
 /**
@@ -20,6 +20,7 @@ void print_alphabet(void)
  */
 int main(void)
 {
-    print_alphabet();
-    return (0);
+    print_alphabet();  // Llama a la función para imprimir el alfabeto
+    return 0;         // Retorna 0 para indicar éxito
 }
+
