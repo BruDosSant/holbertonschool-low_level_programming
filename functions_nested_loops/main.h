@@ -1,2 +1,1 @@
-asdasd
-asdasda
+int _putchar(char c);
