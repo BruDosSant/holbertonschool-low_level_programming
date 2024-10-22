@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - intento de putchar
+ * print_alphabet - intento de putchar
  * Return: 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char letra;
 
@@ -13,9 +13,16 @@ int main(void)
 	{
 		_putchar(letra);
 	}
-	{
 		_putchar('\n');
-	}
+}
 
+/**
+ * main - intento de putchar
+ * Return: 0
+ */
+
+int main(void)
+{
+	print_alphabet();
 	return (0);
 }
