@@ -1,25 +1,11 @@
-#include "main.h"
 #include <ctype.h>
 
 /**
- * _islower - Verifica si un carácter es una letra minúscula
- * @c: El carácter a verificar
- * Return: 1 si es minúscula,0 si no
+ * _islower - Check if a character is lowercase
+ * @c: The character to check
+ * 
+ * Return: 1 if the character is lowercase, 0 otherwise
  */
-
-int _islower(int c)
-{
-    int c;
-
-    if (islower(c))
-    {
-        _putchar(c);
-        _putchar("Si es minuscula");
-    }
-    else
-    {
-        _putchar("No es minuscula");
-    }
-
-    return (islower(c) ? 1 : 0);
+int _islower(int c) {
+    return (c >= 'a' && c <= 'z') ? 1 : 0;
 }
