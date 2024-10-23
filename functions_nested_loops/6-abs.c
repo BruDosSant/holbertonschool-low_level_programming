@@ -2,7 +2,7 @@
 
 /**
  * _abs - locura tricolor
- * @int: numero al cual se le va a buscar su valor abs
+ * @n: numero al cual se le va a buscar su valor abs
  * Return: valor absoluto del numero
  */
 int _abs(int n)
