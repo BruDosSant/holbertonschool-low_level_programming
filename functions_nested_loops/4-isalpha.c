@@ -20,4 +20,6 @@ int _isalpha(int c)
 	{
 		_putchar(48);
 	}
+
+	return (0);
 }
