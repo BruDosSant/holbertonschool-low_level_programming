@@ -7,19 +7,18 @@
  */
 int _isalpha(int c)
 {
+	char j;
 
 	if (c >= 65 && c <= 90)
 	{
-		_putchar(49);
+		return (49);
 	}
 	else if (c >= 97 && c <= 122)
 	{
-		_putchar(49);
+		return (49);
 	}
 	else
 	{
-		_putchar(48);
+		return (48);
 	}
-
-	return (0);
 }
