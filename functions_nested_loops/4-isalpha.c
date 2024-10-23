@@ -7,8 +7,6 @@
  */
 int _isalpha(int c)
 {
-	char j;
-
 	if (c >= 65 && c <= 90)
 	{
 		return (49);
