@@ -4,8 +4,7 @@
  */
 void jack_bauer(void)
 {
-	char h1, h2, h3, m1, m2;
-	h1 = 0; h2 = 0; h3 = 0; m1 = 0; m2 = 0;
+	char h1 = 0, h2 = 0, h3 = 0, m1 = 0, m2 = 0;
 
 	while (h3 < 3)
 	{
