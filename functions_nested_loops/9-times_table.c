@@ -17,7 +17,7 @@ void times_table(void)
 			{
 				if (num != 0)
 				{
-					_putchar(' '); 
+					_putchar(' ');
 				}
 				_putchar(producto + '0');
 			}
