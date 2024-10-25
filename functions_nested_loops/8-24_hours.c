@@ -12,11 +12,11 @@ void jack_bauer(void)
 	m1 = 0;
 	m2 = 0;
 
-	_putchar(h1);
-	_putchar(h2);
+	_putchar(h1 + '0');
+	_putchar(h2 + '0');
 	_putchar(':');
-	_putchar(m1);
-	_putchar(m2);
+	_putchar(m1 + '0');
+	_putchar(m2 + '0');
 	_putchar('\n');
 
 	while (h1 < 3)
@@ -37,10 +37,15 @@ void jack_bauer(void)
 			h1++;
 			h2 = 0;
 		}
-		_putchar(h1);
-		_putchar(h2);
-		_putchar(m1);
-		_putchar(m2);
+		if (h1 == 2 && h2 == 4)
+		{
+			h1 = 3;
+		}
+		_putchar(h1 + '0');
+		_putchar(h2 + '0');
+		_putchar(':');
+		_putchar(m1 + '0');
+		_putchar(m2 + '0');
 		_putchar('\n');
 	}
 }
