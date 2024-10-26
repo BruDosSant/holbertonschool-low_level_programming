@@ -1,23 +1,28 @@
 #include "main.h"
-#include<stdio.h>
+#include <stdio.h>
 
 void print_to_98(int n)
 {
-	int num;
+    int num;
 
-	for (num = n; num <= 98; n++)
+    if (n < 98)
 	{
-		printf("%d,' '", num);
+		for (num = n; num < 98; num++)
+		{
+			printf("%d, ", num);
+		}
+		printf("%d\n", 98);
 	}
-	{
-		_putchar(10);
-	}
-
-	for (num = n; num > 98; n--)
-	{
-		printf("%d,' '", num);
-	}
-	{
-		_putchar(10);
-	}
+    else if (n > 98)
+    {
+	    for (num = n; num > 98; num--)
+	    {
+		    printf("%d, ", num);
+	    }
+	    printf("%d\n", 98);
+    }
+    else
+    {
+	    printf("%d\n", n);
+    }
 }
