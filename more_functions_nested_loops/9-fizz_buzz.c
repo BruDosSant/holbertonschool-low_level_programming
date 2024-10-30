@@ -12,20 +12,21 @@ int main(void)
 
 		if (tres == 0)
 		{
-			printf("Fizz");
+			printf("Fizz ");
 		}
 		else if (cinco == 0)
 		{
-			printf("Buzz");
+			printf("Buzz ");
 		}
 		else if (tres == 0 && cinco == 0)
 		{
-			printf("FizzBuzz");
+			printf("FizzBuzz ");
 		}
 		else
 		{
-			printf("%d", num);
+			printf("%d ", num);
 		}
 	}
+	putchar(10);
 	return(0);
 }
