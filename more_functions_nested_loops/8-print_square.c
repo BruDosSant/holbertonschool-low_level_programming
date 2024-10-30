@@ -2,6 +2,7 @@
 
 /**
  * print_square - ups i did it again
+ * @size: cantidad de veces que se imprime #
  */
 
 void print_square(int size)
@@ -10,7 +11,7 @@ void print_square(int size)
 
 	l = 0;
 
-	if (size < 0)
+	if (size <= 0)
 		_putchar(10);
 	while (l < size)
 	{
