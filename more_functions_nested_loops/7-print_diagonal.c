@@ -13,7 +13,7 @@ void print_diagonal(int n)
 	if (cant == n)
 		_putchar(10);
 
-	while (cant < n)
+	while (cant <= n)
 	{
 		e = 1;
 		while (e < cant)
