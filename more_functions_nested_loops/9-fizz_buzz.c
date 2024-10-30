@@ -10,7 +10,11 @@ int main(void)
 		cinco = num % 5;
 		tres = num % 3;
 
-		if (tres == 0 && cinco == 0)
+		if (num == 100)
+		{
+			printf("FizzBuzz");
+		}
+		else if (tres == 0 && cinco == 0)
 		{
 			printf("FizzBuzz ");
 		}
