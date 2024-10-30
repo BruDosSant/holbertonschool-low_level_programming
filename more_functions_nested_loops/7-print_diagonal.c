@@ -23,7 +23,7 @@ void print_diagonal(int n)
 		}
 		if (e == cant)
 		{
-			_putchar(47);
+			_putchar(92);
 			_putchar(10);
 		}
 		cant++;
