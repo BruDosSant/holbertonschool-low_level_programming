@@ -10,17 +10,17 @@ int main(void)
 		cinco = num % 5;
 		tres = num % 3;
 
-		if (tres == 0)
+		if (tres == 0 && cinco == 0)
 		{
-			printf("Fizz ");
+			printf("FizzBuzz ");
 		}
 		else if (cinco == 0)
 		{
 			printf("Buzz ");
 		}
-		else if (tres == 0 && cinco == 0)
+		else if (tres == 0)
 		{
-			printf("FizzBuzz ");
+			printf("Fizz ");
 		}
 		else
 		{
