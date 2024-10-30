@@ -1,8 +1,8 @@
 #include"main.h"
 
 /**
- * print_diagonal - imprime una linea n cantidad de veces
- * @n: cant de veces que se imprimer n
+ * print_triangle - imprime una linea n cantidad de veces
+ * @size: cant de veces que se imprimer n
  */
 void print_triangle(int size)
 {
