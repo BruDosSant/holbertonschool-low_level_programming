@@ -12,7 +12,7 @@ int main(void)
 
 		if (num == 100)
 		{
-			printf("FizzBuzz");
+			printf("Buzz");
 		}
 		else if (tres == 0 && cinco == 0)
 		{
