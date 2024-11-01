@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * print_rev - imprime pa tras
+ * @s: palabra
+ */
 void print_rev(char *s)
 {
 		int i, a;
