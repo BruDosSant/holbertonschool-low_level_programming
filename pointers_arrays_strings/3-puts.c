@@ -1,5 +1,9 @@
 #include "main.h"
 
+/**
+ * _puts - Inserta un string
+ * @str: el string a printear
+ */
 void _puts(char *str)
 {
 	int a = 0;
