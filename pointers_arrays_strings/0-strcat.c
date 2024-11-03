@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include "main.h"
 
-char *_strcat(char *dest, const char *src) 
+char *_strcat(char *dest, char *src)
 {
-	char dest_og = dest;
+	char *dest_og = dest;
 
 	while (*dest != '\0')
 	{
@@ -18,5 +18,5 @@ char *_strcat(char *dest, const char *src)
 
 	*dest = '\0';
 
-	return (original_dest);
+	return (dest_og);
 }
