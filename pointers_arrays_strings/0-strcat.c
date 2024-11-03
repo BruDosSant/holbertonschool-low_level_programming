@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * _strcat - Concatena el contenido de dos pointers
+ * @dest:
+ * @src:
+ * Return:
+ */
 char *_strcat(char *dest, char *src)
 {
 	char *dest_og = dest;
