@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts - Inserta un string
+ * puts2 - Inserta un string
  * @str: el string a printear
  */
 void puts2(char *str)
@@ -10,7 +10,10 @@ void puts2(char *str)
 
 	while (str[a] != '\0')
 	{
+		if (a % 2 == 0)
+		{
 		_putchar(str[a]);
+		}
 		a++;
 	}
 		_putchar(10);
