@@ -1,5 +1,4 @@
-
-
+#include "main.h"
 /**
  * _strncat - no entendi
  * @dest: string al cual se le agregan
