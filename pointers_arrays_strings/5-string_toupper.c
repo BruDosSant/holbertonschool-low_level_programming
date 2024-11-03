@@ -2,6 +2,7 @@
 
 /**
  * string_toupper - convierte en mayus
+ * @a: string
  * Return: el input pero en mayus
  */
 
