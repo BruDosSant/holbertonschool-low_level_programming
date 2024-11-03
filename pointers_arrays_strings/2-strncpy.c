@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strncpy - Copy a string starting from index 0 of `dest`.
+ * _strncpy - copia un string desde 0 hasta dest
  * @dest: string
  * @src: string
- * @n: number of chars to copy over
- * Return: `dest` edited string
+ * @n: numero de chars que se copian
+ * Return: Dest + los cambios
  */
 
 char *_strncpy(char *dest, char *src, int n)
