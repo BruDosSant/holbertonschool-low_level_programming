@@ -1,4 +1,4 @@
-#include "main.h"
+
 
 /**
  * _strncat - no entendi
@@ -10,7 +10,6 @@
 char *_strncat(char *dest, const char *src, int n) 
 {
 	char *dest_og = dest;
-	
 	int i;
 
 	while (*dest != '\0')
