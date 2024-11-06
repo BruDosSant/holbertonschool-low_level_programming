@@ -1,13 +1,14 @@
 #include "main.h"
 
-void *mi_memset(void *dest, int valor, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned char *ptr = (unsigned char *)dest;
+	unsigned char *ptr = (unsigned char *)s;
+	unsigned int i;
 
-	for (unsigned int i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
-		ptr[i] = (unsigned char)valor;
+		ptr[i] = (unsigned char)b;
 	}
 
-	return dest;
+	return s;
 }
