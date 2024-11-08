@@ -4,7 +4,7 @@
  * _strchr - aloha
  * @s: manin
  * @c: alhoa
- * Return: s
+ * Return: NULL
  */
 
 char *_strchr(char *s, char c)
@@ -19,7 +19,7 @@ char *_strchr(char *s, char c)
 	}
 	if (c == '\0')
 	{
-		return ('\0');
+		return (s);
 	}
-	return (NULL);
+	return (0);
 }
