@@ -1,13 +1,19 @@
 #include "main.h"
+/*
+int main(void)
+{
+	_puts_recursion(s);
+	_putchar(10);
 
+	return (0);
+}
+*/
 void _puts_recursion(char *s)
 {
-		int a = 0;
-
-	if (s[a] != '\0')
+	if (*s != '\0')
 	{
-		_putchar(s[a]);
-		a++;
+		_putchar(*s);
+		s++;
+		_puts_recursion(s);
 	}
-		_putchar(10);
 }
