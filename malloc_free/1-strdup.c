@@ -6,6 +6,6 @@
 char *_strdup(char *str)
 {
 	char *a;
-	a = *str;
+	a = str;
 	return (a);
 }
