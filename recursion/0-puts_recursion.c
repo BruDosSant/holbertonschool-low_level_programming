@@ -1,12 +1,7 @@
 #include "main.h"
 /*
-int main(void)
-{
-	_puts_recursion(s);
-	_putchar(10);
-
-	return (0);
-}
+ * _puts_recursion - imprime string mediante recursion
+ * @s: string
 */
 void _puts_recursion(char *s)
 {
