@@ -1,8 +1,8 @@
 #include "main.h"
 
 /*
-*_puts_recursion - Imprime una cadena de caracteres seguida de un salto de línea usando recursió
-*@s: Puntero a la cadena de caracteres terminada en '\0' que se desea imprimir.
+*_puts_recursion - Imprime una cadena de caracteres seguida de un salto
+*@s: Puntero a la cadena de caracteres que se desea imprimir.
 */
 
 void _puts_recursion(char *s)
