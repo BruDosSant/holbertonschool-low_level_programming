@@ -3,6 +3,13 @@
 #include<stdlib.h>
 #include<stddef.h>
 
+/**
+ * create_array - crea un array con malloc
+ * @size: es el largo del arragy
+ * @c: es el contenido del array
+ * Return: el array
+ */
+
 char *create_array(unsigned int size, char c)
 {
 	char *a;
@@ -10,7 +17,7 @@ char *create_array(unsigned int size, char c)
 	a = malloc(size * sizeof(char));
 	if(a == NULL)
 	{
-		return (NULL);	
+		return (NULL);
 	}
 	if(size > 0)
 	{
