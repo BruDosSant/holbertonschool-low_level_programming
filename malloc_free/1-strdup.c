@@ -5,7 +5,6 @@
 
 char *_strdup(char *str)
 {
-	char *a;
-	a = str;
-	return (a);
+	str = malloc(size * sizeof(char));
+	return (str);
 }
