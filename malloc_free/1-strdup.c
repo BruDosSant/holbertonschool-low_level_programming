@@ -16,6 +16,7 @@ char *_strdup(char *str)
 {
 	char *copy;
 	size_t len;
+	size_t i;
 
 	if (str == NULL)
 	{
@@ -28,6 +29,11 @@ char *_strdup(char *str)
 	if (copy == NULL)
 	{
 		return NULL;
+	}
+
+	for (i = 0; i < len; i++)
+	{
+		copy[i] = str[i];
 	}
 
 	return copy;
