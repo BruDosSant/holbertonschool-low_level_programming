@@ -23,7 +23,11 @@ char *_strdup(char *str)
 		return NULL;
 	}
 
-	len = strlen(str) + 1;
+	while (str[len] != '\0')
+	{
+		len++;
+	}
+	len++;
 
 	copy = (char *)malloc(len);
 	if (copy == NULL)
