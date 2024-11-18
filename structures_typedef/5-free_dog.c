@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * free_dog libera el perrinho
+ * free_dog - libera el perrinho
  * @d: pointer al perrinho
  */
 
