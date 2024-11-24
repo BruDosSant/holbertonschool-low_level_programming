@@ -1,9 +1,9 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - Retorna la suma de todos sus parámetro
- * @n: Número de arguments
- * Return: La suma de los parámetros o 0 si n == 
+ * sum_them_all - Retorna la suma de todos sus parámetr
+ * @n: Número de argument
+ * Return: La suma de los parámetros o 0 si n = 0
  */
 
 int sum_them_all(const unsigned int n, ...)
@@ -16,15 +16,15 @@ int sum_them_all(const unsigned int n, ...)
 	{
 		return (0);
 	}
-	
+
 	va_start(args, n);
-	
+
 	for (i = 0; i < n; i++)
 	{
 		sum += va_arg(args, int);
 	}
 
 	va_end(args);
-	
+
 	return (sum);
 }
