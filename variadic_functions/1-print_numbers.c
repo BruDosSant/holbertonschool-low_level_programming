@@ -3,7 +3,7 @@
 #include<stdarg.h>
 
 /**
- * print_number - prints numbers, followed by a new line
+ * print_numbers - prints numbers, followed by a new line
  * @separator: cadena que separa numeros
  * @n: cantidad de numeros
  */
