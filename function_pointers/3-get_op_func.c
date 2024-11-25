@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * get_op_func :analiza que operacion realizar
+ * get_op_func - analiza que operacion realizar
  * @s: puntero a str que contiene el operador aritméti
  * Return: puntero a una funciónque realiza lo que indica el operador
  */
