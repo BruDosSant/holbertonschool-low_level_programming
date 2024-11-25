@@ -63,7 +63,7 @@ void print_string(va_list arg)
 }
 
 /**
- * print_all - prints anything. 
+ * print_all - prints anything.
  * @format: cadena que contiene los tipos de argumentos
  * @...: una lista de argumentos variables
  */
@@ -81,8 +81,8 @@ void print_all(const char * const format, ...)
 	};
 
 	sep = "";
-        i = 0;
-        j = 0;
+	i = 0;
+	j = 0;
 
 	va_start(args, format);
 
