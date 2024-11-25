@@ -81,16 +81,16 @@ void print_all(const char * const format, ...)
 	int i, j;
 	char *sep;
 
-	sep = "";
-	i = 0;
-	j = 0;
-
 	printer_t funcs[] = {
 		{"c", print_char},
 		{"i", print_int},
 		{"f", print_float},
 		{"s", print_string}
 	};
+
+	sep = "";
+        i = 0;
+        j = 0;
 
 	va_start(args, format);
 
