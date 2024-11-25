@@ -1,9 +1,9 @@
 #include "3-calc.h"
 
 /**
- * main - check the code for Holberton School students.
- * @argc: argument count.
- * @argv: 
+ * main - permite realizar una operación aritmética entre dos núme
+ * @argc: número de argumentos pasados al program
+ * @argv: array de strings que contiene los argumentos pasados al programa
  * Return: 0
  */
 int main(int argc, char *argv[])
