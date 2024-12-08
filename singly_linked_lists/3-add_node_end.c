@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * add_node_end - a√ade un nodulo al funal de la lista
+ * @head: doble puntero al primer nodo de la lista
+ * @str: cont del muevo nodulo
+ * Return: NULL si falla o la ubicacion del ultimo nodulo ahora el new_node
+ */
+
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new_node;
