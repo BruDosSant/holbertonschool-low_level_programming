@@ -1,6 +1,14 @@
 #include "lists.h"
 #include<stdlib.h>
 
+/**
+ * insert_dnodeint_at_index - Inserta un nuevo nodulo en una posició esp
+ * @h: doble puntero al primer nodulo de la lista
+ * @idx: posicion donde se debe insertar el nuevo nodulo
+ * @n: dalor del nuevo nodulo
+ * Return: dirección del nuevo noulo, o NUL
+ */
+
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new_node;
