@@ -2,10 +2,10 @@
 #include<stdlib.h>
 
 /**
- * get_dnodeint_at_index - retorna el nodo en el índice dado dela lisa
- * @head: puntero al primer nodo de la lista
- * @index: el índice del nodo que se desea obten
- * Return: puntero al nodo en el índice especificado, o NULL si el nodo no existe
+ * get_dnodeint_at_index - retorna el nodulo en el índice dado dela lisa
+ * @head: puntero al primer nodulo de la lista
+ * @index: el índice del noulo que se desea obten
+ * Return: puntero al nodulo en el índice especificado, o NUL
  */
 
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
